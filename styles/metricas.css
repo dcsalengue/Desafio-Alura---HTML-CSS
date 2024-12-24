@@ -1,0 +1,32 @@
+.metricas-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.metricas-container div {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+
+    width: 280px;
+    height: 192px;
+}
+
+.metricas__valor {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.metricas__item {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+    padding: 1em 0 .5em 0;
+}
+
+.metricas__texto {
+    color: var(--cinza);
+}
