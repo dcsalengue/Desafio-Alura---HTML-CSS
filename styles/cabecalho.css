@@ -1,0 +1,25 @@
+.cabecalho {
+    padding: 6em 0;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho__titulo {
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.cabecalho__pergunta {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--preto);
+    padding: 1.5em 0;
+}
+
+.cabecalho__paragrafo {
+    font-size: 20px;
+    color: var(--cinza);
+    width: 792px;
+}
