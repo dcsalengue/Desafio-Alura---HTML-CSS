@@ -29,3 +29,59 @@
 .vagas_banner {
     margin-top: 4em;
 }
+
+
+.lista-vagas-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4em 0;
+    width: 100%;
+}
+
+.tipos-vagas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.tipo-vaga {
+    width: 768px;
+    margin-top: 4em;
+}
+
+
+.tipo-vaga__titulo {
+    font-size: 20px;
+    color: var(--preto);
+    margin-bottom: 2em;
+    text-align: left;
+}
+
+.lista-vagas__item {
+    list-style-type: none;
+}
+
+.vaga {
+    border: solid 1px var(--cinza-claro);
+    border-radius: 16px;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.titulo-vaga {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+}
+
+.informacoes {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza);
+    margin-right: 1.5em;
+
+    margin-top: 2em;
+}
