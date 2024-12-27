@@ -1,0 +1,40 @@
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    margin: 6em 7em;
+    padding: 4em;
+    background: #C3191908;
+    text-align: center;
+    align-items: center;
+}
+
+.depoimentos__subheading {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--vermelho);
+}
+
+.depoimentos__quote {
+    font-weight: 500;
+    font-size: 36px;
+    color: var(--preto);
+    margin: 1em 0 2em 0;
+}
+
+.depoimentos__avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50;
+    background-image: url("/assets/Avatar.png");
+}
+ 
+.depoimentos__avatar__text {
+    font-weight: 500;
+    color: var(--preto);
+    margin: 1em 0 0.25em 0;
+}
+
+.depoimentos__avatar__supporting-text {
+    font-size: 14px;
+    color: var(--cinza);
+}
