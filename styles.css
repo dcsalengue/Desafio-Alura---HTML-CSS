@@ -3,6 +3,7 @@
 @import url("./styles/metricas.css");
 @import url("./styles/vagas.css");
 @import url("./styles/depoimentos.css");
+@import url("./styles/formulario.css");
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 :root {
     
@@ -14,6 +15,7 @@
     --vermelho: #8E2424;
     --cor-de-fundo:  var(--branco);
     --fonte-principal: "Inter";
+    --cinza-rodape: #F9FAFB
 }
 
 body{
